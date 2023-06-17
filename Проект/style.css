@@ -1,0 +1,420 @@
+html{
+    cursor: url(https://img.icons8.com/color/48/minecraft-sword.png), auto;
+}
+.maen{
+    background: url(https://vgtimes.ru/uploads/posts/2019-07/1562487083_263311.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+   
+}   
+.social {display: inline-block;}
+.social a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+}
+.social a:hover {color: #fff;}
+.social svg {
+    margin-top: 7px;
+    width: 32px;
+    height: 32px;
+}
+.telegram a:hover {background: #249bd7;}
+.whatsapp a:hover {background: #50b154;}
+.youtube a:hover {background: #c4302b;}
+.header1{
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: -1px;
+}
+.text_header1{
+  padding-top: 3px;
+  font-size: 20px;
+  color: white;
+}
+.header{
+    background: -webkit-linear-gradient(90deg, #3c8a2e,#683c11);
+    background: linear-gradient(90deg, #3c8a2e,#683c11);
+    height: 200px;
+    width: 60%;
+    margin: 20px auto 0 auto;
+    border-radius: 25px;
+}
+.img2{
+  border-radius: 25px;
+}
+.text_header{
+    font-size: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    transition:  1s;
+    color: rgb(204, 213, 41);
+}
+.text_header:hover{
+    transform: scale(1.2);
+}
+.center{
+    background: -webkit-linear-gradient(90deg, #3c8a2e,#683c11);
+    background: linear-gradient(90deg, #3c8a2e,#683c11);
+    height: 1120px;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 25px;
+    padding: 20px;
+}
+.text1{
+  color: rgb(204, 213, 41);
+}
+.text2{
+  color: rgb(204, 213, 41);
+}
+.img2{
+    float: right;
+}
+.img_line{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.img_line::before{
+    content: "";
+    animation: flip 3s linear infinite;
+}
+@keyframes flip{
+    from{
+        content: url(https://static.spielspiele.de/6/113406/94272/300x300/block-world-online.jpg);
+    }
+    to{
+        content: url(https://cdn.thegamesdb.net/images/thumb/boxart/front/84449-1.jpg);
+    }
+}
+.slider-container {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 100%;
+}
+
+.slider {
+width: 60%;
+height: 700px;
+margin: 20px;
+text-align: center;
+border-radius: 20px;
+overflow: hidden;
+position: relative;
+}
+
+.slides {
+display: flex;
+overflow-x: scroll;
+position: relative;
+scroll-behavior: smooth;
+scroll-snap-type: x mandatory;
+}
+
+.slide {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+width: 100%;
+height: 700px;
+scroll-snap-align: center;
+margin-right: 0px;
+box-sizing: border-box;
+background: -webkit-linear-gradient(90deg, #3c8a2e,#683c11);
+background: linear-gradient(90deg, #3c8a2e,#683c11);
+transform-origin: center;
+transform: scale(1);
+}
+
+.slide__text {
+font-size: 40px;
+font-weight: bold;
+font-family: sans-serif;
+}
+.slide__text1 {
+background: url(/img/e253dedf086c6f71bb3b6d3dde91b6a8.webp);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+}
+.slide__text2 {
+background: url(/img/загрузка.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+}
+.slide__text3 {
+background: url(/img/xbox1-mine.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+}
+.slide__text4 {
+background: url(/img/maencraft_bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+}
+.slide a {
+background: none;
+border: none;
+}
+
+a.slide__prev,
+.slider::before {
+transform: rotate(135deg);
+transform: rotate(135deg);
+left: 5%;
+}
+
+a.slide__next,
+.slider::after {
+transform: rotate(-45deg);
+transform: rotate(-45deg);
+right: 5%;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+position: absolute;
+top: 48%;
+width: 35px;
+height: 35px;
+border: solid rgb(12, 224, 239);
+border-width: 0 4px 4px 0;
+padding: 3px;
+box-sizing: border-box;
+}
+
+.slider::before,
+.slider::after {
+content: "";
+z-index: 1;
+background: none;
+pointer-events: none;
+}    
+.plan{
+width: 60%;
+background: -webkit-linear-gradient(90deg, #3c8a2e,#683c11);
+background: linear-gradient(90deg, #3c8a2e,#683c11);
+height: 550spx;
+width: 60%;
+margin:  auto;
+margin-top: 30px;
+border-radius: 25px;
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.img_plan{
+    transition:  1s;
+    padding: 35px;
+    color: white;
+}
+.img_plan:hover{
+    transform: scale(1.2);
+}
+.img_class{
+border-radius: 25px;
+}
+.web{
+width: 60%;
+background: -webkit-linear-gradient(90deg, #3c8a2e,#683c11);
+background: linear-gradient(90deg, #3c8a2e,#683c11);
+height: 1100px;
+width: 60%;
+margin:  auto;
+margin-top: 30px;
+border-radius: 25px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 20px;
+}
+.img_class1{
+border-radius: 25px;
+}
+.button1{
+    padding-left: 16px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    border-radius: 10px;
+    color: royalblue;
+    text-shadow: 2px 2px white, 1px 2px royalblue;
+    height: 25px;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button1:hover{
+    color: darkorange;
+    background-color: royalblue;
+}
+.a1{
+  text-decoration: none;
+}
+.button2{
+    padding-left: 16px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    border-radius: 10px;
+    color: royalblue;
+    text-shadow: 2px 2px white, 1px 2px royalblue;
+    height: 25px;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button2:hover{
+    color: darkorange;
+    background-color: royalblue;
+}
+.a2{
+  text-decoration: none;
+}
+.button3{
+    padding-left: 16px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    border-radius: 10px;
+    color: royalblue;
+    text-shadow: 2px 2px white, 1px 2px royalblue;
+    height: 25px;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button3:hover{
+    color: darkorange;
+    background-color: royalblue;
+}
+.a3{
+  text-decoration: none;
+}
+.button4{
+    padding-left: 16px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    border-radius: 10px;
+    color: royalblue;
+    text-shadow: 2px 2px white, 1px 2px royalblue;
+    height: 25px;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button4:hover{
+    color: darkorange;
+    background-color: royalblue;
+}
+.a4{
+  text-decoration: none;
+}
+.button5{
+    padding-left: 16px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    border-radius: 10px;
+    color: royalblue;
+    text-shadow: 2px 2px white, 1px 2px royalblue;
+    height: 25px;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button5:hover{
+    color: darkorange;
+    background-color: royalblue;
+}
+.a5{
+  text-decoration: none;
+}
+.button6{
+    padding-left: 16px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    border-radius: 10px;
+    color: royalblue;
+    text-shadow: 2px 2px white, 1px 2px royalblue;
+    height: 25px;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button6:hover{
+    color: darkorange;
+    background-color: royalblue;
+}
+.a6{
+  text-decoration: none;
+}
+.end{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(52, 52, 52);
+}
+.text_end{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  font-size: 60px;
+  color: white;
+}
+.img_man{
+  position: absolute;
+}
+.img_man:hover{
+  animation: flip2 10s linear infinite;
+}
+@keyframes flip2{
+    from{
+        content: url(/img/man2.png);
+    }
+    to{
+        content: '';
+    }
+}
+.img_man_no{
+  position: absolute;
+  left: 1500px;
+  top: 3820px;
+}
+.img_man_no:hover{
+  animation: flip3 10s linear infinite;
+}
+@keyframes flip3{
+    from{
+        content: url(/img/image-fSAV8pZPX-transformed.png);
+    }
+    to{
+        content: '';
+    }
+}
